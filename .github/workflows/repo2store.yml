@@ -1,7 +1,8 @@
 name: "Push Updates to REPO-store"
 
 on:
-  push:
+  # push:
+  workflow_dispatch:
 
 jobs:
   repo2store:
